@@ -1,0 +1,95 @@
+name: precise
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  go_router: ^14.3.0
+  flutter_native_splash: ^2.4.2
+  get_it: ^8.0.1
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  cached_network_image: ^3.4.1
+  flutter_local_notifications: ^17.2.4
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.3.2
+  shimmer: ^3.0.0
+  intl: ^0.19.0
+  connectivity_plus: ^6.1.0
+  logger: ^2.4.0
+  dartz: ^0.10.1
+  pull_to_refresh: ^2.0.0
+  flutter_svg: ^2.0.10+1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.2.2
+  webview_flutter: ^4.10.0
+  lottie: ^3.1.3
+  share_plus: ^10.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/vectors/
+    - assets/json/
+    - assets/fonts/
+
+  fonts:
+    - family: Reith
+      fonts:
+        - asset: assets/fonts/reith_regular.ttf
+          weight: 400
+        - asset: assets/fonts/reith_light.ttf
+          weight: 300
+        - asset: assets/fonts/reith_medium.ttf
+          weight: 500
+        - asset: assets/fonts/reith_bold.ttf
+          weight: 700
+        - asset: assets/fonts/reith_extra_bold.ttf
+          weight: 800
+
+    - family: Guardian
+      fonts:
+        - asset: assets/fonts/guardian_light.ttf
+          weight: 300
+        - asset: assets/fonts/guardian_regular.ttf
+          weight: 400
+        - asset: assets/fonts/guardian_medium.ttf
+          weight: 500
+        - asset: assets/fonts/guardian_semi_bold.ttf
+          weight: 600
+        - asset: assets/fonts/guardian_bold.ttf
+          weight: 700
+        - asset: assets/fonts/guardian_black.ttf
+          weight: 900
+
+    
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  image: assets/images/splash_logo_ios.png
+  color: "#FFFFFF"
+  color_dark: "#121212"
+  android_12:
+    image: assets/images/splash_logo_android.png
+    color: "#FFFFFF"          
